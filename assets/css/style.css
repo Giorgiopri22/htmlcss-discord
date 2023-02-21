@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+                    /**utility**/
+.link{
+text-decoration: none;                       
+}
+                    
+.button{
+   border:1px solid;
+   border-radius: 10px;
+   padding: 6px;
+   margin-top: 10px;
+}
+                    
+.white{
+  background-color: rgb(245, 242, 238);
+}
+
+.grey{
+   background-color: rgb(51, 51, 51);
+}
+.azure{
+    background-color: rgb(12, 109, 109);
+}
+
+.flex{
+   display: flex;
+}
+.title{
+    font-size: 50px;
+    padding: 10px;
+}
+
+.text{
+    padding: 20px;
+    font-size: 23px;
+}
+
+.box-1.order{
+    order:1;
+}
+
+ul li{
+    list-style-type: none;
+    color: rgb(84, 235, 235);
+}
+
+.white-text{
+    color: rgba(245, 245, 245, 0.856);    
+}
+
+li{
+    margin-bottom: 2px;
+}
+
+
+                    /**PARTE HEADER**/
+header{
+   background-image: url(../img/jumbo.png);
+   background-size: cover;
+   background-position: center;   
+}
+
+nav{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navigatore{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+
+.container{
+    width: 50%;
+    flex-direction: column;
+    padding:50px 0;
+    align-items: center;
+    margin-top: 60px;
+    margin: auto;
+    color: white;      
+}
+
+
+.download{
+    padding: 20px;
+}
+
+            /**PARTE MAIN**/
+        
+.box{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1{
+    background-size: cover;    
+}
+
+.box-2{
+    width: 20%;
+}
+
+.main-ending{
+    text-align: center;
+    margin-top: 70px;
+    width: 70%;
+    margin: auto;
+}
+
+
+.bonus{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+
+.title-bonus{
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+                  /**PARTE FOOTER**/
+                  
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(51, 50, 50);
+}
+
+.f-container{
+    display: flex;
+    width: 70%;
+    height: 250px;
+    justify-content: center;
+}
+
+#footer-h{
+    color: rgb(84, 235, 235);
+    font-size: 35px;
+    margin: 15px 0;
+}
+
+.social{
+    margin: 15px 0;   
+}
+
+.social>a{
+    margin-right: 10px;
+    color: antiquewhite;
+}
+.colonna-1{
+    width:30%;
+}
+
+.colonna{
+    width: 20%;
+}
+
+hr{
+    border: 2px solid grey;
+    width: 70%;
+}
+
+.sub-container{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 10px;
+}
